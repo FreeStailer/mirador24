@@ -1,0 +1,26 @@
+@import url(./__content/page__content.css);
+
+.page {
+    background-color: #2A2C2F;
+    /* font-family: 'Inter', Arial, sans-serif; */
+    font-family: 'Tellural', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+         max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+         max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+         max-width: 320px;
+    }
+}

@@ -1,0 +1,31 @@
+.about__paragraph {
+    grid-area: text;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+    margin: 33% 45px 0 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .about__paragraph {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__paragraph {
+        margin: -90px 50px 20px 50px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about__paragraph {
+        margin: -90px 16px 24px 16px;
+    }
+}

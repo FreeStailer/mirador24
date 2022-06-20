@@ -1,0 +1,19 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__arrow/lead__arrow.css);
+
+.lead {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    min-height: calc(320px + (740 - 320) * ((90vw - 100px) / (1280 - 100)));
+    margin: 0;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../../images/main.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}

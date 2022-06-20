@@ -1,0 +1,72 @@
+@font-face {
+  src: url('./Inter-Regular.woff2') format('woff2'),
+    url('./Inter-Regular.woff') format('woff'),
+    url('./Inter-Regular.ttf') format('truetype'),
+    url('./Inter-Regular.otf') format('opentype');
+  font-family: 'Inter';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('./Inter-Bold.woff2') format('woff2'),
+    url('./Inter-Bold.woff') format('woff'),
+    url('./Inter-Bold.ttf') format('truetype'),
+    url('./Inter-Bold.otf') format('opentype');
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url('./Inter-Black.woff2') format('woff2'),
+    url('./Inter-Black.woff') format('woff'),
+    url('./Inter-Black.ttf') format('truetype'),
+    url('./Inter-Black.otf') format('opentype');
+  font-family: 'Inter';
+  font-weight: 900;
+}
+
+/* TELLURAL */
+
+@font-face {
+	font-family: 'Tellural';
+	src: url('Tellural.eot');
+	src: local('Tellural'),
+		url('Tellural.eot') format('embedded-opentype'),
+		url('Tellural.woff') format('woff'),
+		url('Tellural.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tellural';
+	src: url('Tellural-Bold.eot');
+	src: local('Tellural Bold'), local('Tellural-Bold'),
+		url('Tellural-Bold.eot') format('embedded-opentype'),
+		url('Tellural-Bold.woff') format('woff'),
+		url('Tellural-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tellural';
+	src: url('Tellural-BoldItalic.eot');
+	src: local('Tellural Bold Italic'), local('Tellural-BoldItalic'),
+		url('Tellural-BoldItalic.eot') format('embedded-opentype'),
+		url('Tellural-BoldItalic.woff') format('woff'),
+		url('Tellural-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Tellural';
+	src: url('Tellural-RegularItalic.eot');
+	src: local('Tellural Regular Italic'), local('Tellural-RegularItalic'),
+		url('Tellural-RegularItalic.eot') format('embedded-opentype'),
+		url('Tellural-RegularItalic.woff') format('woff'),
+		url('Tellural-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}

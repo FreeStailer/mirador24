@@ -1,0 +1,14 @@
+.about__table {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 20px auto 80px;
+    padding: 0;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .about__table {
+        margin: 40px 85px auto 85px;
+        flex-direction: column;
+    }
+}

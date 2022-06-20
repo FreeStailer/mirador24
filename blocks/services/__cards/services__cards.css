@@ -1,0 +1,15 @@
+@import url(./_item/services__cards_item.css);
+@import url(./_image/services__cards_image.css);
+@import url(./_description/services__cards_description.css);
+
+.services__cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1199px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    align-items: baseline;
+    justify-content: center;
+  }

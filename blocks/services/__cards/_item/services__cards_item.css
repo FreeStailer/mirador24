@@ -1,0 +1,11 @@
+.services__cards_item {
+    display: inline-block;
+    width: 260px;
+    margin: 60px 20px 0 20px;
+  }
+
+.services__cards_item:nth-child(3n) {
+    display: inline-block;
+    width: 260px;
+    margin: 60px 20px 0 20px;
+  }

@@ -1,0 +1,36 @@
+@import url(./__title/contacts__title.css);
+@import url(./__subtitle/contacts__subtitle.css);
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    min-height: calc(320px + (740 - 320) * ((90vw - 100px) / (1280 - 100)));
+    margin: 0;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../images/contacts.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts {
+        margin: 0;
+        min-height: 592px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        min-height: 444px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contacts {
+        min-height: 191px;
+    }
+}
